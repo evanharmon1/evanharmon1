@@ -77,13 +77,6 @@ My daily driver is [**Ghostty**](https://ghostty.org) running **zsh + Oh My Zsh*
   <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/?username=evanharmon1&show_icons=true&count_private=true&hide_border=true" alt="GitHub stats" />
 </a>
 
-#### ⏱️ Deep dive (WakaTime + commit habits)
-
-<!--START_SECTION:waka-->
-<!-- This section is auto-generated daily by anmol098/waka-readme-stats. It will populate
-     once the workflow runs and WakaTime data starts accruing. -->
-<!--END_SECTION:waka-->
-
 ---
 
 ### ✍️ From my blog
