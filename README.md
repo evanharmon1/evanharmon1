@@ -44,12 +44,12 @@ I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`)
 
 **Terminal & tooling**
 ![Ghostty](https://img.shields.io/badge/Ghostty-1C1C1C?style=flat&logo=ghostty&logoColor=white)
-![chezmoi](https://img.shields.io/badge/chezmoi-2088FF?style=flat&logo=chezmoi&logoColor=white)
+![chezmoi](https://img.shields.io/badge/chezmoi-2088FF?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjE5IDk5OSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYzNCAyNWwyNDQgMjA2IDI0NSAyMDUgOTEgNzcgLTExOSAwIC0xNTMgMCAwIDI1OGM5OCwyMyAxOTIsNjAgMjc5LDEwOCAtMTkxLC01NCAtNDAxLC03NSAtNjE4LC01NCAtMjE4LDIxIC00MjAsODIgLTU5NywxNzIgODEsLTY4IDE3MSwtMTI1IDI3MCwtMTY3IC0yLDEgLTQsMiAtNiwybDAgLTMxOSAtMTUzIDAgLTExOSAwIDkxIC03NyAyNDUgLTIwNSAyNDQgLTIwNiAyOCAtMjMgMjggMjN6bTMwOCA3NDZjLTMsLTEgLTYsLTIgLTksLTIgMywwIDYsMSA5LDJ6bS0xMCAtM2MtMywwIC02LC0xIC05LC0yIDMsMSA2LDIgOSwyem0tMTAgLTJjLTMsMCAtNiwtMSAtOSwtMiAzLDEgNiwyIDksMnptLTEwIC0yYy0zLDAgLTYsLTEgLTgsLTEgMiwwIDUsMSA4LDF6bS0xMSAtMmMtMiwwIC01LC0xIC03LC0xIDIsMCA1LDEgNywxem0tOSAtMmMtMywwIC01LC0xIC04LC0xIDMsMCA1LDEgOCwxem0tMTEgLTJjLTIsMCAtNCwwIC03LC0xIDMsMSA1LDEgNywxem0tMTAgLTFjLTIsLTEgLTQsLTEgLTYsLTEgMiwwIDQsMCA2LDF6bS0xMCAtMmMtMiwwIC00LC0xIC02LC0xbDAgLTE0MCAwIC0xMDEgMCAtODcgMTIxIDAgLTE1NCAtMTI5IC0yMTYgLTE4MiAtMjE3IDE4MiAtMTUzIDEyOSAxMjEgMCAwIDg3IDAgMTAxIDAgMTg1IDAgMGM3NiwtMjYgMTU1LC00MyAyMzgsLTUxIDkwLC05IDE3OSwtNiAyNjYsN3ptLTU0OSA2MGMtMSwxIC0zLDEgLTQsMiAxLC0xIDMsLTEgNCwtMnptLTkgNGMtMSwwIC0zLDEgLTUsMSAyLDAgNCwtMSA1LC0xem0tOSAzYy0yLDEgLTQsMiAtNiwzIDIsLTEgNCwtMiA2LC0zem0tOSA0Yy0yLDEgLTQsMiAtNiwyIDIsMCA0LC0xIDYsLTJ6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTUzMiA0NDVjMCwtNDAgMzMsLTczIDc0LC03MyA0MCwwIDczLDMzIDczLDczIDAsMjggLTE0LDUyIC0zNiw2NGw3IDEzIDQ1IDc3IC04OSAwIC04OSAwIDQ1IC03NyA3IC0xM2MtMjIsLTEyIC0zNywtMzYgLTM3LC02NHoiLz48L3N2Zz4=)
 ![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=flat&logo=homebrew&logoColor=black)
 ![zsh](https://img.shields.io/badge/zsh-F15A24?style=flat&logo=zsh&logoColor=white)
 ![Starship](https://img.shields.io/badge/Starship-DD0B78?style=flat&logo=starship&logoColor=white)
 ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=flat&logo=tmux&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=vscodium&logoColor=white)
 
 **Infra & cloud**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
