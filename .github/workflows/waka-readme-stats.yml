@@ -1,0 +1,43 @@
+name: Waka Readme Stats
+
+# Auto-updates the <!--START_SECTION:waka--> block in README.md with WakaTime +
+# GitHub-derived coding stats (languages, lines of code, commit habits, etc.).
+#
+# Requires two repo secrets:
+#   WAKATIME_API_KEY - from https://wakatime.com/settings/account
+#   GH_TOKEN         - a classic PAT with `repo` scope (lets the action read your
+#                      repos via GraphQL and commit the README update)
+
+on:
+  schedule:
+    # Runs daily at 00:30 UTC
+    - cron: "30 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update README with dev stats
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SHOW_LANGUAGE: "True"
+          SHOW_OS: "True"
+          SHOW_EDITORS: "True"
+          SHOW_PROJECTS: "True"
+          SHOW_TIMEZONE: "True"
+          SHOW_COMMIT: "True"
+          SHOW_DAYS_OF_WEEK: "True"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_LOC_CHART: "True"
+          SHOW_PROFILE_VIEWS: "True"
+          SHOW_SHORT_INFO: "True"
+          # Keep stats focused on current work — drop legacy LaunchCode coursework
+          # and old static sites from the per-repo/commit breakdowns.
+          IGNORED_REPOS: "java-quiz,java-games,neighbor-share-legacy,onthebaytours.com,jccc-html-css,evan-harmon-bootstrap,djangogirls,blogz,blogz-launchcode,build-a-blog,user-signup,web-caesar,html-me-something"

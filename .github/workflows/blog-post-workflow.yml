@@ -1,0 +1,25 @@
+name: Blog Post Workflow
+
+# Auto-updates the BLOG-POST-LIST markers in README.md with the latest posts
+# from evanharmon.com's RSS feed. Uses only the default GITHUB_TOKEN.
+
+on:
+  schedule:
+    # Runs daily at 01:00 UTC
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-blog-posts:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull latest posts from RSS
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://evanharmon.com/rss.xml"
+          max_post_count: 5
+          commit_message: "chore: update blog posts from RSS"
