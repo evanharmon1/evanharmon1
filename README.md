@@ -7,12 +7,6 @@
 
 ### Hi, I'm Evan 👋
 
-Trail mix sommelier, software developer, and DevOps engineer in Kansas City. _Not Ludwig Wittgenstein._
-
-I build and run things end to end — from Astro front ends to Python/TypeScript services to the
-self-hosted homelab they live on. I care about clean developer environments, reproducible setups,
-and automating the boring parts.
-
 🌐 [evanharmon.com](https://evanharmon.com) &nbsp;·&nbsp; 🧪 [ponderous.dev](https://ponderous.dev) &nbsp;·&nbsp; 🌱 [sommerlawn.com](https://sommerlawn.com) &nbsp;·&nbsp; 💻 [kctechenthusiasts.com](https://kctechenthusiasts.com)
 
 ---
