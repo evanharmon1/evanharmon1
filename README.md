@@ -25,22 +25,22 @@ My daily driver is [**Ghostty**](https://ghostty.org) running **zsh + Oh My Zsh*
 [**Starship**](https://starship.rs) prompt and **tmux**. Everything is installed with
 [**Homebrew**](https://brew.sh) and my dotfiles are templated and synced across machines with
 [**chezmoi**](https://www.chezmoi.io) (so `.zshrc`, Ghostty, Starship, git, etc. are one `chezmoi apply` away).
+I do most of my coding in a remote, self-hosted dev container provisioned with [**Coder**](https://coder.com),
+leaning on AI tools like [**Claude**](https://www.anthropic.com/claude-code), **Codex**, and **agent-deck**.
+Repetitive tasks live in [**go-task**](https://taskfile.dev) (`Taskfile.yml`), and I think and take notes in [**Obsidian**](https://obsidian.md).
 
 **Languages**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
 
 **Frameworks & runtime**
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
 ![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=flat&logo=reactquery&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-EE342F?style=flat&logo=convex&logoColor=white)
 
 **Terminal & tooling**
 ![Ghostty](https://img.shields.io/badge/Ghostty-1C1C1C?style=flat&logo=ghostty&logoColor=white)
