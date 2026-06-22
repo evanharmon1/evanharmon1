@@ -27,7 +27,7 @@ My daily driver is [**Ghostty**](https://ghostty.org) running [**zsh**](https://
 [**chezmoi**](https://www.chezmoi.io) (so `.zshrc`, Ghostty, Starship, git, etc. are one `chezmoi apply` away).
 I do most of my coding in a remote, self-hosted dev container provisioned with [**Coder**](https://coder.com),
 leaning on AI tools like [**Claude**](https://www.anthropic.com/claude-code), [**Codex**](https://github.com/openai/codex), and [**agent-deck**](https://github.com/asheshgoplani/agent-deck).
-Repetitive tasks live in [**go-task**](https://taskfile.dev) (`Taskfile.yml`), and I think and take notes in [**Obsidian**](https://obsidian.md).
+I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`) task runner for determinative AI and human use, and I think and take notes in [**Obsidian**](https://obsidian.md).
 
 **Languages**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
