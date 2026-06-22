@@ -17,6 +17,7 @@ jobs:
     name: Update README with latest blog posts
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Pull latest posts from RSS
         uses: gautamkrishnar/blog-post-workflow@master
         with:
