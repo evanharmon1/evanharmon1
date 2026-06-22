@@ -21,12 +21,12 @@
 
 ### 🧰 My setup
 
-My daily driver is [**Ghostty**](https://ghostty.org) running **zsh + Oh My Zsh** with a
-[**Starship**](https://starship.rs) prompt and **tmux**. Everything is installed with
+My daily driver is [**Ghostty**](https://ghostty.org) running [**zsh**](https://www.zsh.org) + [**Oh My Zsh**](https://ohmyz.sh) with a
+[**Starship**](https://starship.rs) prompt and [**tmux**](https://github.com/tmux/tmux/wiki). Everything is installed with
 [**Homebrew**](https://brew.sh) and my dotfiles are templated and synced across machines with
 [**chezmoi**](https://www.chezmoi.io) (so `.zshrc`, Ghostty, Starship, git, etc. are one `chezmoi apply` away).
 I do most of my coding in a remote, self-hosted dev container provisioned with [**Coder**](https://coder.com),
-leaning on AI tools like [**Claude**](https://www.anthropic.com/claude-code), **Codex**, and **agent-deck**.
+leaning on AI tools like [**Claude**](https://www.anthropic.com/claude-code), [**Codex**](https://github.com/openai/codex), and [**agent-deck**](https://github.com/asheshgoplani/agent-deck).
 Repetitive tasks live in [**go-task**](https://taskfile.dev) (`Taskfile.yml`), and I think and take notes in [**Obsidian**](https://obsidian.md).
 
 **Languages**
