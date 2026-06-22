@@ -26,7 +26,7 @@ My daily driver is [**Ghostty**](https://ghostty.org) running [**zsh**](https://
 [**Homebrew**](https://brew.sh) and my dotfiles are templated and synced across machines with
 [**chezmoi**](https://www.chezmoi.io) (so `.zshrc`, Ghostty, Starship, git, etc. are one `chezmoi apply` away).
 I do most of my coding in a remote, self-hosted dev container provisioned with [**Coder**](https://coder.com),
-leaning on AI tools like [**Claude**](https://www.anthropic.com/claude-code), [**Codex**](https://github.com/openai/codex), and [**agent-deck**](https://github.com/asheshgoplani/agent-deck).
+allowing a 24/7 environment for myself and agentic AI tools like [**Claude**](https://www.anthropic.com/claude-code), [**Codex**](https://github.com/openai/codex), and [**agent-deck**](https://github.com/asheshgoplani/agent-deck).
 I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`) task runner for determinative AI and human use, and I think and take notes in [**Obsidian**](https://obsidian.md).
 
 **Languages**
