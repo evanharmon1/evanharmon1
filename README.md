@@ -50,6 +50,7 @@ I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`)
 ![Starship](https://img.shields.io/badge/Starship-DD0B78?style=flat&logo=starship&logoColor=white)
 ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=flat&logo=tmux&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=vscodium&logoColor=white)
+![1Password](https://img.shields.io/badge/1Password-0094F5?style=flat&logo=1password&logoColor=white)
 
 **Infra & cloud**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -76,6 +77,20 @@ I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`)
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/?username=evanharmon1&show_icons=true&count_private=true&hide_border=true" alt="GitHub stats" />
 </a>
+
+---
+
+### 🧱 Harmon Stack
+
+A personal stack of homelab, dev-tooling, and automation repos that work together:
+
+| Repo | What it is |
+| --- | --- |
+| [**harmon-init**](https://github.com/evanharmon1/harmon-init) | Copier template that bootstraps & standardizes new repos (CI/CD, devcontainers, AI steering, tooling). |
+| [**harmon-devkit**](https://github.com/evanharmon1/harmon-devkit) | Reusable boilerplates & code templates, standalone scripts, and AI assets (skills, prompts, agents). |
+| [**harmon-dotfiles**](https://github.com/evanharmon1/harmon-dotfiles) | Shell & app dotfiles, managed declaratively with chezmoi. |
+| [**harmon-ops**](https://github.com/evanharmon1/harmon-ops) | Personal machine bootstrapping, package management & dev-environment setup across macOS/Windows/Linux. |
+| **harmon-infra** | Homelab infrastructure as code — Terraform, Ansible, and Docker Compose services. |
 
 ---
 
