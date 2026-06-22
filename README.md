@@ -17,7 +17,6 @@ My daily driver is [**Ghostty**](https://ghostty.org) running **zsh + Oh My Zsh*
 [**Starship**](https://starship.rs) prompt and **tmux**. Everything is installed with
 [**Homebrew**](https://brew.sh) and my dotfiles are templated and synced across machines with
 [**chezmoi**](https://www.chezmoi.io) (so `.zshrc`, Ghostty, Starship, git, etc. are one `chezmoi apply` away).
-Day to day I lean on `lazygit`, `fzf`, `ripgrep`, `fd`, `bat`, and `jq`.
 
 **Languages**
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
