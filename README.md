@@ -7,7 +7,7 @@
 
 ### Hi, I'm Evan 👋
 
-🌐 [evanharmon.com](https://evanharmon.com) &nbsp;·&nbsp; 🧪 [ponderous.dev](https://ponderous.dev) &nbsp;·&nbsp; 🌱 [sommerlawn.com](https://sommerlawn.com) &nbsp;·&nbsp; 💻 [kctechenthusiasts.com](https://kctechenthusiasts.com)
+[evanharmon.com](https://evanharmon.com) &nbsp;·&nbsp; [ponderous.dev](https://ponderous.dev) &nbsp;·&nbsp; [sommerlawn.com](https://sommerlawn.com) &nbsp;·&nbsp; [kctechenthusiasts.com](https://kctechenthusiasts.com)
 
 ---
 
