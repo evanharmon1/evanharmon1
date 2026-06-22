@@ -86,7 +86,7 @@ My daily driver is [**Ghostty**](https://ghostty.org) running **zsh + Oh My Zsh*
 
 ---
 
-### ✍️ From the blog
+### ✍️ From my blog
 
 Latest posts from [evanharmon.com](https://evanharmon.com/blog) (auto-updated):
 
@@ -98,13 +98,5 @@ Latest posts from [evanharmon.com](https://evanharmon.com/blog) (auto-updated):
 <!-- BLOG-POST-LIST:END -->
 
 ---
-
-### 🔗 Elsewhere
-
-- 🌐 Personal — [evanharmon.com](https://evanharmon.com)
-- 🧪 [Ponderous Development](https://github.com/ponderousdev) — [ponderous.dev](https://ponderous.dev)
-- 🌱 [Sommer Lawn](https://github.com/sommerlawn) — [sommerlawn.com](https://sommerlawn.com)
-- 💻 [KC Tech Enthusiasts](https://github.com/kctechenthusiasts) — [kctechenthusiasts.com](https://kctechenthusiasts.com)
-- 🛠️ [Harmon Ops](https://github.com/harmonops) · [Triplicate Group](https://github.com/triplicategroup)
 
 <sub>📍 Kansas City, MO</sub>
