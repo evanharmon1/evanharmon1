@@ -9,7 +9,7 @@
 
 [evanharmon.com](https://evanharmon.com) &nbsp;·&nbsp; [ponderous.dev](https://ponderous.dev) &nbsp;·&nbsp; [sommerlawn.com](https://sommerlawn.com) &nbsp;·&nbsp; [kctechenthusiasts.com](https://kctechenthusiasts.com) &nbsp;·&nbsp; [harmonlab.net](https://harmonlab.net)
 
-### 🟢 Service uptime
+### 🟢 Service status
 
 ![evanharmon.com](https://img.shields.io/website?url=https%3A%2F%2Fevanharmon.com&label=evanharmon.com&up_message=online&down_message=offline&style=flat)
 ![ponderous.dev](https://img.shields.io/website?url=https%3A%2F%2Fponderous.dev&label=ponderous.dev&up_message=online&down_message=offline&style=flat)
