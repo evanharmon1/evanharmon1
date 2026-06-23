@@ -72,10 +72,10 @@ I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`)
   so the breakdown reflects my current stack. Tune `hide=` / `exclude_repo=` as desired.
 -->
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evanharmon1&langs_count=8&layout=compact&hide=java,html&exclude_repo=onthebaytours.com,jccc-html-css,evan-harmon-bootstrap,build-a-blog,html-me-something&hide_border=true" alt="Top languages" />
+  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evanharmon1&langs_count=8&layout=compact&hide=java,html&exclude_repo=onthebaytours.com,jccc-html-css,evan-harmon-bootstrap,build-a-blog,html-me-something&hide_border=true&theme=blueberry" alt="Top languages" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/?username=evanharmon1&show_icons=true&count_private=true&hide_border=true" alt="GitHub stats" />
+  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/?username=evanharmon1&show_icons=true&count_private=true&hide_border=true&theme=blueberry" alt="GitHub stats" />
 </a>
 
 ---
