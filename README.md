@@ -99,10 +99,10 @@ My personal stack of dev-tooling, automation, and homelab repos that work togeth
 Latest posts from [evanharmon.com](https://evanharmon.com/blog) (auto-updated):
 
 <!-- BLOG-POST-LIST:START -->
-- [KC Tech Enthusiasts - Agentic AI Design Patterns with Claude Code](https://evanharmon.com/blog/kcte-claude-code-agentic-ai-design-patterns)
-- [KC Tech Enthusiasts - AI Platforms](https://evanharmon.com/blog/kcte-ai-platforms)
-- [The Phoenix Project Book Summary](https://evanharmon.com/blog/book-summary-phoenix-project)
-- [How to setup git to use a different git commit identity based on the repo&#39;s directory](https://evanharmon.com/blog/how-to-setup-git-to-use-a-different-git-commit-identity-based-on-the-repos-directory)
+- [KC Tech Enthusiasts - Agentic AI Design Patterns with Claude Code](https://evanharmon.com/blog/kcte-claude-code-agentic-ai-design-patterns) (Dec. 12, 2025)
+- [KC Tech Enthusiasts - AI Platforms](https://evanharmon.com/blog/kcte-ai-platforms) (May 2, 2025)
+- [The Phoenix Project Book Summary](https://evanharmon.com/blog/book-summary-phoenix-project) (June 30, 2023)
+- [How to setup git to use a different git commit identity based on the repo&#39;s directory](https://evanharmon.com/blog/how-to-setup-git-to-use-a-different-git-commit-identity-based-on-the-repos-directory) (Sep. 12, 2025)
 <!-- BLOG-POST-LIST:END -->
 
 ---
