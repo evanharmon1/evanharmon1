@@ -1,11 +1,9 @@
 <!--
   evanharmon1 profile README
-  Layout: minimal (jessfraz-style) — sparse prose, a couple of SVG cards,
+  Layout: minimal — sparse prose, a couple of SVG cards,
   and two auto-updated sections (waka stats + blog feed).
   Two GitHub Actions keep the marked sections fresh — see .github/workflows/.
 -->
-
-### Hi, I'm Evan 👋
 
 [evanharmon.com](https://evanharmon.com) &nbsp;·&nbsp; [ponderous.dev](https://ponderous.dev) &nbsp;·&nbsp; [sommerlawn.com](https://sommerlawn.com) &nbsp;·&nbsp; [kctechenthusiasts.com](https://kctechenthusiasts.com) &nbsp;·&nbsp; [harmonlab.net](https://harmonlab.net)
 
