@@ -27,20 +27,20 @@ I do most of my coding in self-hosted dev containers provisioned with [**Coder**
 which act as always-on remote environments for myself and agentic AI tools like [**Claude**](https://www.anthropic.com/claude-code), [**Codex**](https://github.com/openai/codex), and [**agent-deck**](https://github.com/asheshgoplani/agent-deck) so they can be run collaboratively or autonomously.
 I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`) task runner for determinative AI and human use, and I think and take notes in [**Obsidian**](https://obsidian.md) which you can see here - [**Memex**](https://evanharmon.com/memex).
 
-**Languages**
+**Languages:**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
-**Frameworks & runtime**
+**Frameworks & runtime:**
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
 ![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=flat&logo=reactquery&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Convex](https://img.shields.io/badge/Convex-EE342F?style=flat&logo=convex&logoColor=white)
 
-**Terminal & tooling**
+**Terminal & tooling:**
 ![Ghostty](https://img.shields.io/badge/Ghostty-1C1C1C?style=flat&logo=ghostty&logoColor=white)
 ![chezmoi](https://img.shields.io/badge/chezmoi-2088FF?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjE5IDk5OSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYzNCAyNWwyNDQgMjA2IDI0NSAyMDUgOTEgNzcgLTExOSAwIC0xNTMgMCAwIDI1OGM5OCwyMyAxOTIsNjAgMjc5LDEwOCAtMTkxLC01NCAtNDAxLC03NSAtNjE4LC01NCAtMjE4LDIxIC00MjAsODIgLTU5NywxNzIgODEsLTY4IDE3MSwtMTI1IDI3MCwtMTY3IC0yLDEgLTQsMiAtNiwybDAgLTMxOSAtMTUzIDAgLTExOSAwIDkxIC03NyAyNDUgLTIwNSAyNDQgLTIwNiAyOCAtMjMgMjggMjN6bTMwOCA3NDZjLTMsLTEgLTYsLTIgLTksLTIgMywwIDYsMSA5LDJ6bS0xMCAtM2MtMywwIC02LC0xIC05LC0yIDMsMSA2LDIgOSwyem0tMTAgLTJjLTMsMCAtNiwtMSAtOSwtMiAzLDEgNiwyIDksMnptLTEwIC0yYy0zLDAgLTYsLTEgLTgsLTEgMiwwIDUsMSA4LDF6bS0xMSAtMmMtMiwwIC01LC0xIC03LC0xIDIsMCA1LDEgNywxem0tOSAtMmMtMywwIC01LC0xIC04LC0xIDMsMCA1LDEgOCwxem0tMTEgLTJjLTIsMCAtNCwwIC03LC0xIDMsMSA1LDEgNywxem0tMTAgLTFjLTIsLTEgLTQsLTEgLTYsLTEgMiwwIDQsMCA2LDF6bS0xMCAtMmMtMiwwIC00LC0xIC02LC0xbDAgLTE0MCAwIC0xMDEgMCAtODcgMTIxIDAgLTE1NCAtMTI5IC0yMTYgLTE4MiAtMjE3IDE4MiAtMTUzIDEyOSAxMjEgMCAwIDg3IDAgMTAxIDAgMTg1IDAgMGM3NiwtMjYgMTU1LC00MyAyMzgsLTUxIDkwLC05IDE3OSwtNiAyNjYsN3ptLTU0OSA2MGMtMSwxIC0zLDEgLTQsMiAxLC0xIDMsLTEgNCwtMnptLTkgNGMtMSwwIC0zLDEgLTUsMSAyLDAgNCwtMSA1LC0xem0tOSAzYy0yLDEgLTQsMiAtNiwzIDIsLTEgNCwtMiA2LC0zem0tOSA0Yy0yLDEgLTQsMiAtNiwyIDIsMCA0LC0xIDYsLTJ6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTUzMiA0NDVjMCwtNDAgMzMsLTczIDc0LC03MyA0MCwwIDczLDMzIDczLDczIDAsMjggLTE0LDUyIC0zNiw2NGw3IDEzIDQ1IDc3IC04OSAwIC04OSAwIDQ1IC03NyA3IC0xM2MtMjIsLTEyIC0zNywtMzYgLTM3LC02NHoiLz48L3N2Zz4=)
 ![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=flat&logo=homebrew&logoColor=black)
@@ -50,7 +50,7 @@ I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=vscodium&logoColor=white)
 ![1Password](https://img.shields.io/badge/1Password-0094F5?style=flat&logo=1password&logoColor=white)
 
-**Infra & cloud**
+**Infra & cloud:**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
