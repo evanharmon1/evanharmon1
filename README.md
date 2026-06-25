@@ -33,6 +33,8 @@ I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`)
 
 **Frameworks & runtime:**
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=flat&logo=reactquery&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
