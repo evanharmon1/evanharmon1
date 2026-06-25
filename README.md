@@ -88,7 +88,7 @@ My personal stack of dev-tooling, automation, and homelab repos that work togeth
 | --- | --- |
 | [**harmon-init**](https://github.com/evanharmon1/harmon-init) | Copier template that bootstraps & standardizes new repos (CI/CD, devcontainers, AI steering, tooling). |
 | [**harmon-devkit**](https://github.com/evanharmon1/harmon-devkit) | Reusable boilerplates & code templates, standalone scripts, and AI assets (skills, prompts, agents). |
-| [**harmon-dotfiles**](https://github.com/evanharmon1/harmon-dotfiles) | Shell & app dotfiles, managed declaratively with chezmoi. |
+| [**harmon-dotfiles**](https://github.com/evanharmon1/harmon-dotfiles) | Shell & app dotfiles (zshrc, git config, shell aliases, etc.), managed declaratively with chezmoi. |
 | [**harmon-ops**](https://github.com/evanharmon1/harmon-ops) | Personal machine bootstrapping, package management & dev-environment setup across macOS/Windows/Linux. |
 | **harmon-infra** | Homelab infrastructure as code — Terraform, Ansible, and Docker Compose services. |
 
