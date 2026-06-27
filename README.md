@@ -11,6 +11,7 @@
 ![ponderous.dev](https://img.shields.io/website?url=https%3A%2F%2Fponderous.dev&label=ponderous.dev&up_message=online&down_message=offline&style=flat)
 ![sommerlawn.com](https://img.shields.io/website?url=https%3A%2F%2Fsommerlawn.com&label=sommerlawn&up_message=online&down_message=offline&style=flat)
 ![kctechenthusiasts.com](https://img.shields.io/website?url=https%3A%2F%2Fkctechenthusiasts.com&label=kc%20tech%20enthusiasts&up_message=online&down_message=offline&style=flat)
+![lawnomator.com](https://img.shields.io/website?url=https%3A%2F%2Flawnomator.com&label=lawnomator&up_message=online&down_message=offline&style=flat)
 
 ---
 
