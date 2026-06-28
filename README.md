@@ -23,7 +23,7 @@ My coding environment is [**Ghostty**](https://ghostty.org) and VS Code running 
 [**chezmoi**](https://www.chezmoi.io) (so `.zshrc`, Ghostty, Starship, git, etc. are one `chezmoi apply` away).
 I do most of my coding in self-hosted dev containers provisioned with [**Coder**](https://coder.com),
 which act as always-on remote environments for myself and agentic AI tools like [**Claude**](https://www.anthropic.com/claude-code), [**Codex**](https://github.com/openai/codex), and [**agent-deck**](https://github.com/asheshgoplani/agent-deck) so they can be run collaboratively or autonomously.
-I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`) task runner for determinative AI and human use, and I think and take notes in [**Obsidian**](https://obsidian.md) which you can see here - [**Memex**](https://evanharmon.com/memex).
+I make extensive use of the [**go-task**](https://taskfile.dev) (`Taskfile.yml`) task runner for AI and human use, and I think and take notes in [**Obsidian**](https://obsidian.md) which you can see here - [**Memex**](https://evanharmon.com/memex).
 
 **Languages:**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
