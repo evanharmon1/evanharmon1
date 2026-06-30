@@ -80,9 +80,9 @@ I make extensive use of the [go-task](https://taskfile.dev) (`Taskfile.yml`) tas
 
 ---
 
-### 🧱 Harmon Stack
+### 🧱 Harmon Platform
 
-My personal stack of dev-tooling, automation, and homelab repos that work together:
+My custom development platform with machine configuration, DevOps systems, homelab infrastructure, and automation repos that work together to help me develop software and manage my homelab:
 
 | Repo | What it is |
 | --- | --- |
