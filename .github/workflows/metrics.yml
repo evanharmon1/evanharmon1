@@ -56,9 +56,11 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # Full contribution calendar — current year (last 1 year).
+          # Full contribution calendar — last 2 calendar years, so a complete,
+          # fully-populated year is always visible (the flat calendar only does
+          # whole calendar years; use the isocalendar above for a rolling window).
           plugin_calendar: yes
-          plugin_calendar_limit: 1
+          plugin_calendar_limit: 2
 
           # Languages — most-used breakdown across public repos, from GitHub's
           # per-repo language data (no cloning). Java/HTML and legacy repos
@@ -71,9 +73,10 @@ jobs:
           plugin_languages_skipped: onthebaytours.com, jccc-html-css, evan-harmon-bootstrap, build-a-blog, html-me-something
           plugin_languages_limit: 8
 
-          # Lines of code changed — top repositories + a diff-history graph. Uses
-          # the GitHub statistics API (delay lets it settle); PUBLIC repos only
-          # with a scopeless token.
+          # Lines of code changed — top repositories ranked by ALL-TIME lines
+          # added/removed (GitHub's lifetime contributor stats, not recent
+          # activity). The delay lets the stats API settle; PUBLIC repos only with
+          # a scopeless token. (Diff-history graph intentionally omitted.)
           plugin_lines: yes
-          plugin_lines_sections: repositories, history
+          plugin_lines_sections: repositories
           plugin_lines_delay: 30
