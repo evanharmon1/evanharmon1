@@ -60,14 +60,13 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 1
 
-          # Languages — "recently used", computed from recent public push events
-          # (last 30 days) via the events feed, NOT by cloning repos. With a
-          # scopeless token this reflects PUBLIC activity only. Java/HTML and the
-          # legacy repos are still filtered out.
+          # Languages — most-used breakdown across public repos, from GitHub's
+          # per-repo language data (no cloning). Java/HTML and legacy repos
+          # filtered out. NOTE: the "recently-used" analyzer is avoided on
+          # purpose — it crashes (unfixed in metrics v3.34 AND master) on push
+          # events whose payload lacks a commits array, which happens with a
+          # scopeless token over private-repo activity.
           plugin_languages: yes
-          plugin_languages_sections: recently-used
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 300
           plugin_languages_ignored: java, html
           plugin_languages_skipped: onthebaytours.com, jccc-html-css, evan-harmon-bootstrap, build-a-blog, html-me-something
           plugin_languages_limit: 8
