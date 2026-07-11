@@ -1,7 +1,8 @@
 name: GitHub Metrics
 
-# Renders GitHub stats + language breakdown into a static SVG (github-metrics.svg)
-# committed to this repo and referenced from README.md. Because the image is a
+# Renders commit calendars, recently-used languages, and lines-of-code panels
+# into a static SVG (github-metrics.svg) committed to this repo and referenced
+# from README.md. Because the image is a
 # committed file served by GitHub — not a live request to a shared third-party
 # service — it can never be rate-limited or paused like the old
 # github-readme-stats.vercel.app instance (which now returns HTTP 503
@@ -42,20 +43,38 @@ jobs:
           output_condition: data-changed
           committer_message: "chore: update GitHub metrics"
 
-          # Dark, terminal-style card (matches the Ghostty/zsh aesthetic).
-          template: terminal
-          base: header, metadata
+          # "classic" template (light): the calendar plugin below only supports
+          # classic, so the whole card uses it. Order matches the layout below.
+          template: classic
+          base: header
           config_timezone: America/Chicago
+          config_order: base.header, isocalendar, calendar, languages, lines
 
-          # Language breakdown (replaces the old top-langs card): top 8, ignore
-          # Java/HTML (legacy coursework + old static sites), and skip a few
-          # non-fork legacy repos so it reflects the current stack.
+          # Isometric commit calendar — half-year (180 days). Contribution counts
+          # include private activity when "Include private contributions on my
+          # profile" is enabled in GitHub settings (scopeless token is fine).
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # Full contribution calendar — current year (last 1 year).
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+
+          # Languages — "recently used", computed from recent public push events
+          # (last 30 days) via the events feed, NOT by cloning repos. With a
+          # scopeless token this reflects PUBLIC activity only. Java/HTML and the
+          # legacy repos are still filtered out.
           plugin_languages: yes
+          plugin_languages_sections: recently-used
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
           plugin_languages_ignored: java, html
           plugin_languages_skipped: onthebaytours.com, jccc-html-css, evan-harmon-bootstrap, build-a-blog, html-me-something
           plugin_languages_limit: 8
-          plugin_languages_other: yes
 
-          # Isometric commit calendar (past year).
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # Lines of code changed — top repositories + a diff-history graph. Uses
+          # the GitHub statistics API (delay lets it settle); PUBLIC repos only
+          # with a scopeless token.
+          plugin_lines: yes
+          plugin_lines_sections: repositories, history
+          plugin_lines_delay: 30
