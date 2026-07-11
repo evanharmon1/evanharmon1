@@ -1,0 +1,61 @@
+name: GitHub Metrics
+
+# Renders GitHub stats + language breakdown into a static SVG (github-metrics.svg)
+# committed to this repo and referenced from README.md. Because the image is a
+# committed file served by GitHub — not a live request to a shared third-party
+# service — it can never be rate-limited or paused like the old
+# github-readme-stats.vercel.app instance (which now returns HTTP 503
+# DEPLOYMENT_PAUSED). If a run ever fails, the last committed SVG keeps rendering.
+#
+# Requires a repo secret `METRICS_TOKEN`: a *classic* GitHub Personal Access Token
+# used only to READ stats. Fine-grained (github_pat_) tokens are rejected by
+# metrics — GitHub doesn't support them for the GraphQL API it uses. A SCOPELESS
+# token (no boxes checked) is sufficient and stays harmless if leaked (read-only
+# public data, no writes, no private-repo contents). To include PRIVATE
+# contribution counts in the calendar, keep the token scopeless and enable
+# "Include private contributions on my profile" in GitHub profile settings — no
+# broad `repo` scope needed. (Only private-repo *languages* would require `repo`,
+# which is intentionally avoided.) The commit uses the workflow's built-in
+# GITHUB_TOKEN, not this PAT.
+
+on:
+  schedule:
+    # Daily at 01:10 UTC (offset from the blog workflow's 01:00).
+    - cron: "10 1 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    name: Render github-metrics.svg
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics card
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: evanharmon1
+          filename: github-metrics.svg
+          output_action: commit
+          output_condition: data-changed
+          committer_message: "chore: update GitHub metrics"
+
+          # Dark, terminal-style card (matches the Ghostty/zsh aesthetic).
+          template: terminal
+          base: header, metadata
+          config_timezone: America/Chicago
+
+          # Language breakdown (replaces the old top-langs card): top 8, ignore
+          # Java/HTML (legacy coursework + old static sites), and skip a few
+          # non-fork legacy repos so it reflects the current stack.
+          plugin_languages: yes
+          plugin_languages_ignored: java, html
+          plugin_languages_skipped: onthebaytours.com, jccc-html-css, evan-harmon-bootstrap, build-a-blog, html-me-something
+          plugin_languages_limit: 8
+          plugin_languages_other: yes
+
+          # Isometric commit calendar (past year).
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

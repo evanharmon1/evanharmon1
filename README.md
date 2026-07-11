@@ -1,8 +1,8 @@
 <!--
   evanharmon1 profile README
-  Layout: minimal — sparse prose, a couple of SVG cards,
-  and two auto-updated sections (waka stats + blog feed).
-  Two GitHub Actions keep the marked sections fresh — see .github/workflows/.
+  Layout: minimal — sparse prose, badges, and two auto-updated sections:
+  a GitHub stats card (github-metrics.svg) and the blog feed.
+  Two GitHub Actions keep them fresh — see .github/workflows/.
 -->
 
 [evanharmon.com](https://evanharmon.com) &nbsp;·&nbsp; [ponderous.dev](https://ponderous.dev) &nbsp;·&nbsp; [sommerlawn.com](https://sommerlawn.com) &nbsp;·&nbsp; [kctechenthusiasts.com](https://kctechenthusiasts.com) &nbsp;·&nbsp; [lawnomator.com](https://lawnomator.com)
@@ -67,16 +67,16 @@ I make extensive use of the [go-task](https://taskfile.dev) (`Taskfile.yml`) tas
 ### 📊 Stats
 
 <!--
-  Top-langs: forks are excluded by github-readme-stats by default; we also hide Java/HTML
-  (legacy LaunchCode coursework + old static sites) and exclude a few non-fork legacy repos
-  so the breakdown reflects my current stack. Tune `hide=` / `exclude_repo=` as desired.
+  Rendered by .github/workflows/metrics.yml (lowlighter/metrics) into a static,
+  committed SVG — github-metrics.svg — regenerated daily. A committed file served
+  by GitHub can't be rate-limited or paused like the old
+  github-readme-stats.vercel.app cards were. Tune the language filters, template,
+  and plugins in that workflow. Java/HTML and a few legacy repos are excluded so
+  the language breakdown reflects the current stack.
 -->
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evanharmon1&langs_count=8&layout=compact&hide=java,html&exclude_repo=onthebaytours.com,jccc-html-css,evan-harmon-bootstrap,build-a-blog,html-me-something&hide_border=true&theme=cobalt2" alt="Top languages" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="165" align="center" src="https://github-readme-stats.vercel.app/api/?username=evanharmon1&show_icons=true&count_private=true&hide_border=true&theme=cobalt2" alt="GitHub stats" />
-</a>
+<p align="center">
+  <img src="./github-metrics.svg" alt="Evan Harmon's GitHub metrics" />
+</p>
 
 ---
 
