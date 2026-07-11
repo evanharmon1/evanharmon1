@@ -7,11 +7,16 @@ name: GitHub Metrics
 # github-readme-stats.vercel.app instance (which now returns HTTP 503
 # DEPLOYMENT_PAUSED). If a run ever fails, the last committed SVG keeps rendering.
 #
-# Requires a repo secret `METRICS_TOKEN`: a GitHub Personal Access Token used only
-# to READ your stats. A classic token with NO scopes covers public data; add the
-# `repo` scope to also count private-repo activity (parity with the old
-# count_private=true card). The commit itself uses the workflow's GITHUB_TOKEN,
-# not this PAT.
+# Requires a repo secret `METRICS_TOKEN`: a *classic* GitHub Personal Access Token
+# used only to READ stats. Fine-grained (github_pat_) tokens are rejected by
+# metrics — GitHub doesn't support them for the GraphQL API it uses. A SCOPELESS
+# token (no boxes checked) is sufficient and stays harmless if leaked (read-only
+# public data, no writes, no private-repo contents). To include PRIVATE
+# contribution counts in the calendar, keep the token scopeless and enable
+# "Include private contributions on my profile" in GitHub profile settings — no
+# broad `repo` scope needed. (Only private-repo *languages* would require `repo`,
+# which is intentionally avoided.) The commit uses the workflow's built-in
+# GITHUB_TOKEN, not this PAT.
 
 on:
   schedule:
