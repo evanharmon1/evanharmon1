@@ -1,7 +1,7 @@
 name: GitHub Metrics
 
 # Renders commit calendars, languages, and lines-of-code panels
-# into a static SVG (github-metrics.svg) committed to this repo and referenced
+# into a static SVG (github-metrics-v2.svg) committed to this repo and referenced
 # from README.md. Because the image is a
 # committed file served by GitHub — not a live request to a shared third-party
 # service — it can never be rate-limited or paused like the old
@@ -32,7 +32,7 @@ permissions:
 
 jobs:
   github-metrics:
-    name: Render github-metrics.svg
+    name: Render github-metrics-v2.svg
     runs-on: ubuntu-latest
     steps:
       - name: Generate full metrics card
@@ -42,7 +42,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: evanharmon1
-          filename: github-metrics.svg
+          filename: github-metrics-v2.svg
           output_action: commit
           output_condition: data-changed
           committer_message: "chore: update GitHub metrics"
@@ -97,7 +97,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: evanharmon1
-          filename: github-metrics.svg
+          filename: github-metrics-v2.svg
           output_action: commit
           output_condition: data-changed
           committer_message: "chore: update GitHub metrics (without lines fallback)"

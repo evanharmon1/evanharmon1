@@ -68,14 +68,14 @@ I make extensive use of the [go-task](https://taskfile.dev) (`Taskfile.yml`) tas
 
 <!--
   Rendered by .github/workflows/metrics.yml (lowlighter/metrics) into a static,
-  committed SVG — github-metrics.svg — regenerated daily. A committed file served
+  committed SVG — github-metrics-v2.svg — regenerated daily. A committed file served
   by GitHub can't be rate-limited or paused like the old
   github-readme-stats.vercel.app cards were. Tune the language filters, template,
   and plugins in that workflow. Java/HTML and a few legacy repos are excluded so
   the language breakdown reflects the current stack.
 -->
 <p align="center">
-  <img src="./github-metrics.svg" alt="Evan Harmon's GitHub metrics" />
+  <img src="./github-metrics-v2.svg" alt="Evan Harmon's GitHub metrics" />
 </p>
 
 ---
